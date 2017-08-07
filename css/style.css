@@ -1,0 +1,421 @@
+/* Connect the fonts */
+@font-face {
+  font-family: MyriadPro;
+  src: url(../fonts/MyriadPro-Regular.woff);
+}
+@font-face {
+  font-family: OratorStd;
+  src: url(../fonts/OratorStd.woff);
+}
+@font-face {
+  font-family: PTSans;
+  src: url(../fonts/PTSans-Regular.woff);
+}
+/* Responsive mxins */
+/* Header */
+html,
+body {
+  height: auto;
+  width: 100%;
+}
+html {
+  font-size: 14px;
+}
+@media screen and (max-width: 620px) {
+  html {
+    font-size: 2.26vw;
+  }
+}
+body {
+  background: #604685;
+}
+.container {
+  width: 1005px;
+}
+@media screen and (max-width: 1005px) {
+  .container {
+    width: 100%;
+  }
+}
+.header-left {
+  padding: 27px 0 0 30px;
+}
+@media screen and (max-width: 1005px) {
+  .header-left {
+    height: 100px;
+  }
+}
+.header-left img {
+  float: left;
+}
+.header-left div {
+  float: left;
+  padding-left: 18px;
+}
+.header-left div p {
+  color: #fff;
+  font: 1.43rem MyriadPro;
+  margin: 0;
+}
+@media screen and (max-width: 530px) {
+  .header-left div p {
+    margin-top: 4px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .header-left div p {
+    margin-top: 6px;
+  }
+}
+.header-right {
+  margin: 0 0 17px 0;
+  padding: 21px 54px 0 0;
+}
+.header-right div {
+  background: #bf91c1;
+  border-radius: 1px;
+  border: 1px solid #89578b;
+  height: 87px;
+  text-align: center;
+  width: 556px;
+}
+@media screen and (max-width: 1005px) {
+  .header-right div {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .header-right div {
+    height: 75px;
+  }
+}
+.header-right div h1 {
+  color: #fff;
+  font: 3.86rem OratorStd;
+  margin: -10px 0 0 0;
+}
+@media screen and (max-width: 530px) {
+  .header-right div h1 {
+    font-size: 3.3rem;
+    margin-top: -2px;
+  }
+}
+.header-right div p {
+  color: #fff;
+  font: 1.43rem OratorStd;
+  margin: -13px 0 0 0;
+}
+@media screen and (max-width: 530px) {
+  .header-right div p {
+    margin-top: -3px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .header-right div p {
+    margin-top: 6px;
+  }
+}
+@media screen and (max-width: 1005px) {
+  .header-right {
+    padding: 0;
+    margin: 21px 28px 17px;
+  }
+}
+/* Runner string */
+.ticker {
+  height: 30px;
+  margin-bottom: 24px;
+  padding-top: 2px;
+  background: url(../img/runner_string_border_top.jpg) repeat-x top, #715797 url(../img/runner_string_border_bottom.jpg) repeat-x bottom;
+}
+@media screen and (max-width: 620px) {
+  .ticker {
+    height: 4.85vw;
+    padding-top: .32vw;
+  }
+}
+.ticker p {
+  color: #a394ba;
+  font: 1.14rem OratorStd;
+  overflow: hidden;
+  white-space: nowrap;
+}
+/* Content */
+.content {
+  margin: 0 auto;
+  width: 873px;
+}
+@media screen and (max-width: 1005px) {
+  .content {
+    padding: 0 28px;
+    width: 100%;
+  }
+}
+.content a {
+  text-decoration: none;
+}
+.content_one {
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 770px) {
+  .content_one {
+    margin-bottom: 1.5vw;
+  }
+}
+.content_one .content_one_one {
+  background: #f1b043 url('../img/cart.png') no-repeat 85% 50%;
+  display: block;
+  height: 148px;
+  float: left;
+  margin-right: 1.83%;
+  padding: 0 0 0 7%;
+  width: 47.53%;
+}
+@media screen and (max-width: 770px) {
+  .content_one .content_one_one {
+    float: none;
+    margin: 0 0 1.5vw 0;
+    width: 100%;
+  }
+}
+.content_one .content_one_one p {
+  color: #fff;
+  font: 3.21rem MyriadPro;
+  line-height: 140px;
+}
+.content_one .content_one_two {
+  background: #e29bb8 url('../img/globus.png') no-repeat 50% 50%;
+  height: 148px;
+  display: block;
+  float: left;
+  margin-right: 1.83%;
+  width: 20.73%;
+}
+@media screen and (max-width: 770px) {
+  .content_one .content_one_two {
+    width: 49%;
+  }
+}
+.content_one .content_one_three {
+  background: #95d9ba url('../img/house.png') no-repeat 60% 50%;
+  height: 148px;
+  display: block;
+  float: left;
+  width: 28%;
+}
+@media screen and (max-width: 770px) {
+  .content_one .content_one_three {
+    width: 49%;
+  }
+}
+.content_two {
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 770px) {
+  .content_two {
+    margin-bottom: 1.5vw;
+  }
+}
+.content_two .content_two_one {
+  background: #7596d2 url('../img/car.png') no-repeat 50% 50%;
+  display: block;
+  height: 148px;
+  float: left;
+  margin-right: 1.83%;
+  width: 25.01%;
+}
+@media screen and (max-width: 770px) {
+  .content_two .content_two_one {
+    float: none;
+    margin: 0 0 1.5vw 0;
+    width: 100%;
+  }
+}
+.content_two .content_two_two {
+  background: #92ab29 url('../img/radiohazard.png') no-repeat 15% 50%;
+  height: 148px;
+  display: block;
+  float: left;
+  margin-right: 1.83%;
+  padding: 0 15% 0 0;
+  text-align: right;
+  width: 61.51%;
+}
+@media screen and (max-width: 770px) {
+  .content_two .content_two_two {
+    background-position: 50% 50%;
+    width: 49%;
+  }
+}
+.content_two .content_two_two p {
+  color: #fff;
+  font: 3.21rem MyriadPro;
+  line-height: 140px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 770px) {
+  .content_two .content_two_two p {
+    display: none;
+  }
+}
+.content_two .content_two_three {
+  background: #b18ae9 url('../img/tools.png') no-repeat 50% 50%;
+  height: 148px;
+  display: block;
+  float: left;
+  width: 9.8%;
+}
+@media screen and (max-width: 770px) {
+  .content_two .content_two_three {
+    width: 49%;
+  }
+}
+.content_three {
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 770px) {
+  .content_three {
+    margin-bottom: 1.5vw;
+  }
+}
+.content_three .content_three_one {
+  background: #cc81e5 url('../img/flag.png') no-repeat 50% 50%;
+  display: block;
+  height: 148px;
+  float: left;
+  margin-right: 1.83%;
+  padding: 0 0 0 7%;
+  width: 47.53%;
+}
+@media screen and (max-width: 770px) {
+  .content_three .content_three_one {
+    float: none;
+    margin: 0 0 1.5vw 0;
+    width: 100%;
+  }
+}
+.content_three .content_three_two {
+  background: #cc81e5 url('../img/lamp.png') no-repeat 50% 50%;
+  height: 148px;
+  display: block;
+  float: left;
+  margin-right: 1.83%;
+  width: 20.73%;
+}
+@media screen and (max-width: 770px) {
+  .content_three .content_three_two {
+    width: 49%;
+  }
+}
+.content_three .content_three_three {
+  background: #cc81e5 url('../img/invalid.png') no-repeat 50% 50%;
+  height: 148px;
+  display: block;
+  float: left;
+  width: 28%;
+}
+@media screen and (max-width: 770px) {
+  .content_three .content_three_three {
+    width: 49%;
+  }
+}
+.content_four .content_four_one {
+  background: #92ab29 url('../img/plus.png') no-repeat 10% 50%;
+  display: block;
+  float: left;
+  height: 148px;
+  margin-right: 1.83%;
+  padding: 2% 2% 0 0;
+  text-align: right;
+  width: 25.01%;
+}
+@media screen and (max-width: 860px) {
+  .content_four .content_four_one {
+    background-position: 50% 50%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .content_four .content_four_one {
+    float: none;
+    margin: 0 0 1.5vw 0;
+    width: 100%;
+  }
+}
+.content_four .content_four_one p {
+  color: #fff;
+  font: 3.21rem MyriadPro;
+  line-height: 50px;
+  text-transform: lowercase;
+}
+@media screen and (max-width: 860px) {
+  .content_four .content_four_one p {
+    display: none;
+  }
+}
+@media screen and (max-width: 770px) {
+  .content_four .content_four_one p {
+    display: none;
+  }
+}
+.content_four .content_four_two {
+  background: #cc81e5 url('../img/dog.png') no-repeat 15% 50%;
+  height: 148px;
+  display: block;
+  float: left;
+  margin-right: 1.83%;
+  padding: 0 7% 0 0;
+  text-align: right;
+  width: 61.51%;
+}
+@media screen and (max-width: 860px) {
+  .content_four .content_four_two {
+    background-position: 50% 50%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .content_four .content_four_two {
+    width: 49%;
+  }
+}
+.content_four .content_four_two p {
+  color: #fff;
+  font: 3.21rem MyriadPro;
+  line-height: 140px;
+  text-transform: lowercase;
+}
+@media screen and (max-width: 860px) {
+  .content_four .content_four_two p {
+    display: none;
+  }
+}
+@media screen and (max-width: 770px) {
+  .content_four .content_four_two p {
+    display: none;
+  }
+}
+.content_four .content_four_three {
+  background: #cc81e5 url('../img/ribbon.png') no-repeat 50% 50%;
+  height: 148px;
+  display: block;
+  float: left;
+  width: 9.8%;
+}
+@media screen and (max-width: 770px) {
+  .content_four .content_four_three {
+    width: 49%;
+  }
+}
+/* Footer */
+.footer {
+  padding-top: 28px;
+  text-align: center;
+}
+@media screen and (max-width: 1005px) {
+  .footer {
+    padding-top: 2.79vw;
+  }
+}
+.footer p {
+  color: #fff;
+  font: 1.43rem OratorStd;
+}
